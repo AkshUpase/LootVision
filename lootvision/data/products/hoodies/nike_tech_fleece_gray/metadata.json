@@ -1,0 +1,17 @@
+﻿{
+  "product_id": "nike_tech_fleece_gray",
+  "name": "Nike Tech Fleece Hoodie Gray",
+  "brand": "Nike",
+  "category": "hoodies",
+  "model_sku": "CW4555-063",
+  "original_price_usd": 130.00,
+  "estimated_resale_price_inr": 5000,
+  "condition": "New",
+  "demo": true,
+  "images": {
+    "front": "front.jpg",
+    "back": "back.jpg"
+  },
+  "source": "demo_unsplash",
+  "attribution": "Demo image from Unsplash (CC0). Replace with your own product photos."
+}

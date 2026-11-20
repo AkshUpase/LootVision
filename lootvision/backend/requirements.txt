@@ -1,0 +1,25 @@
+# Core API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+sqlalchemy==2.0.35
+
+# Image I/O
+pillow==10.4.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+
+# Vector retrieval
+faiss-cpu==1.8.0.post1
+
+# Embedding model (optional but recommended - real fine-grained retrieval)
+open_clip_torch==2.26.1
+torch==2.4.1
+
+# Object detection (optional - falls back to heuristic detector if absent)
+ultralytics==8.2.103
+
+# Edge optimization
+onnx==1.16.2
+onnxruntime==1.19.2

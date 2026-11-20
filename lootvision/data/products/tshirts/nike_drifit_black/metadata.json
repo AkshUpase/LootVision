@@ -1,0 +1,17 @@
+﻿{
+  "product_id": "nike_drifit_black",
+  "name": "Nike Dri-FIT T-Shirt Black",
+  "brand": "Nike",
+  "category": "tshirts",
+  "model_sku": "CW4555-010",
+  "original_price_usd": 35.00,
+  "estimated_resale_price_inr": 1200,
+  "condition": "New",
+  "demo": true,
+  "images": {
+    "front": "front.jpg",
+    "back": "back.jpg"
+  },
+  "source": "demo_unsplash",
+  "attribution": "Demo image from Unsplash (CC0). Replace with your own product photos."
+}

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono, .mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Signature element: a slow-moving scan line across the live camera feed,
+   reinforcing the "scanner" thesis without competing with the AR overlays. */
+@keyframes scanline {
+  0%   { transform: translateY(-100%); opacity: 0; }
+  10%  { opacity: 0.55; }
+  90%  { opacity: 0.55; }
+  100% { transform: translateY(100%); opacity: 0; }
+}
+
+.scanline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #4CE0B3, transparent);
+  box-shadow: 0 0 12px 2px rgba(76, 224, 179, 0.6);
+  animation: scanline 3.2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scanline { animation: none; opacity: 0.15; }
+}
+
+@keyframes box-pop {
+  0%   { transform: scale(0.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.detection-box {
+  animation: box-pop 220ms ease-out;
+}

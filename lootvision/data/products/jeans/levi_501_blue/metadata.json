@@ -1,0 +1,17 @@
+﻿{
+  "product_id": "levi_501_blue",
+  "name": "Levi 501 Original Fit Jeans Blue",
+  "brand": "Levi's",
+  "category": "jeans",
+  "model_sku": "501-0001-BLU",
+  "original_price_usd": 60.00,
+  "estimated_resale_price_inr": 2500,
+  "condition": "New",
+  "demo": true,
+  "images": {
+    "front": "front.jpg",
+    "back": "back.jpg"
+  },
+  "source": "demo_unsplash",
+  "attribution": "Demo image from Unsplash (CC0). Replace with your own product photos."
+}

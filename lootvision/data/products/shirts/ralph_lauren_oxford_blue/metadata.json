@@ -1,0 +1,17 @@
+﻿{
+  "product_id": "ralph_lauren_oxford_blue",
+  "name": "Ralph Lauren Oxford Shirt Blue",
+  "brand": "Ralph Lauren",
+  "category": "shirts",
+  "model_sku": "RL-OXF-BLU-001",
+  "original_price_usd": 95.00,
+  "estimated_resale_price_inr": 3500,
+  "condition": "New",
+  "demo": true,
+  "images": {
+    "front": "front.jpg",
+    "back": "back.jpg"
+  },
+  "source": "demo_unsplash",
+  "attribution": "Demo image from Unsplash (CC0). Replace with your own product photos."
+}

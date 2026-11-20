@@ -1,0 +1,17 @@
+﻿{
+  "product_id": "uniqlo_supima_white",
+  "name": "Uniqlo Supima Cotton Shirt White",
+  "brand": "Uniqlo",
+  "category": "shirts",
+  "model_sku": "432100-WHT",
+  "original_price_usd": 30.00,
+  "estimated_resale_price_inr": 1200,
+  "condition": "New",
+  "demo": true,
+  "images": {
+    "front": "front.jpg",
+    "back": "back.jpg"
+  },
+  "source": "demo_unsplash",
+  "attribution": "Demo image from Unsplash (CC0). Replace with your own product photos."
+}
