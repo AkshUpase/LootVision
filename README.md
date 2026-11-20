@@ -148,7 +148,7 @@ The retrieval database includes **64+ catalog items** embedded across 11 key res
 
 ```powershell
 # Navigate to project directory
-cd lootvision
+cd lootvision/lootvision
 
 # Install Python backend dependencies
 pip install -r backend/requirements.txt
@@ -168,7 +168,7 @@ Backend will be live at: `http://localhost:8000` (API Docs: `http://localhost:80
 Open a new terminal:
 ```powershell
 # Navigate to frontend folder
-cd lootvision/frontend
+cd lootvision/lootvision/frontend
 
 # Install node dependencies
 npm install
